@@ -11,12 +11,12 @@ section
 {
     position: relative;
     width: 100%;
-    height: 750px;
+    height: 700px;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background: #ffffff;
 
 }
 header
@@ -43,11 +43,11 @@ header ul
 
 }
 header ul li{
-    list-style:inside;
+    list-style-type:none;
    margin-left: 40%;
 }
 header ul li a:hover{
-    color:#f1dede;
+    color:#fa1515;
 }
 header ul li a
 {
@@ -93,7 +93,7 @@ text-decoration: none;
 }
 .content .textBox a:hover
 {
-    color: #fefefe;
+    color: #f4e3e3;
 box-shadow: 1px 1px 1px rgb(212, 32, 32);
 }
 .imgBox .Uber
@@ -137,7 +137,7 @@ transform: translateY(-20px);
 {
     width: 100%;
     height: 550px; 
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 60px;
     justify-content: center;
     display: flex;
@@ -151,13 +151,14 @@ transform: translateY(-20px);
 
 }
 
+
 .footer .About
 {
     display: inline-flex;
-    padding: 50px;
+    padding: 80px;
 width: 100%;
-height:450px;
-background-color:#0b0b0b;
+height:650px;
+background-color:#000000;
 
 justify-content:space-evenly;
 }
@@ -172,12 +173,12 @@ justify-content:space-evenly;
 {
     height: 60px;
     width: 60px;
-    color: #fff;
+    color: #f7f4f4;
 }
 .About ul
 {
     list-style: none;
-    color: #f9f7f7;
+    color: #f4eaea;
 }
 .About ul h3{
     padding: 10px;
